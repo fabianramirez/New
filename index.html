@@ -96,15 +96,39 @@ if(isset($_POST['submit'])){
 
 
 
+        
 
-
-        <form action="" method="post">
+         <form class="ui form">
+  <div class="field">
+    <label>First Name</label>
+    <input type="text" name="first-name"  title="first-name" placeholder="First Name">
+  </div>
+             
+  <div class="field">
+    <label>Last Name</label>
+    <input type="text" name="last-name" title="last-name" placeholder="Last Name">
+  </div>
+  <div class="field">
+    <label>Email</label>
+    <input type="text" name="email" title="email" placeholder="Email">
+  </div>
+    
+             
+  <div class="field">
+    <div class="ui checkbox">
+      <input type="checkbox" tabindex="0" class="hidden">
+      <label>I agree to the Terms and Conditions</label>
+    </div>
+  </div>
+  <button class="ui button" type="submit">Submit</button>
+</form>
+        <!--<form action="" method="post">
         Nombre: <input type="text" name="first_name" title="nombre"><br>
         Apellidos: <input type="text" name="last_name" title="apellidos"><br>
         Email: <input type="text" name="email" title="email"><br>
         Sugerencias o dudas:<br><textarea rows="5" name="message" cols="30" title="sugerencias"></textarea><br>
         <input type="submit" name="submit" value="Submit">
-        </form>
+        </form>-->
 
     </div>
 </div>
