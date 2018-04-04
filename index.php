@@ -1,4 +1,5 @@
 <!DOCTYPE HTML5>
+
 <?php
 if(isset($_POST['submit'])){
     $to = "email@example.com"; // this is your Email address
